@@ -1,0 +1,97 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2B2C3E;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #2B2C3E;
+    border-radius: 28px;
+    overflow: hidden;
+}
+
+.login-info {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    border-radius: 28px;
+    background-color: #676767;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 200px;
+    height: 200px;/* Adjust size as needed */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    background-color: #2B2C3E;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.form-group {
+    width: 450px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+    color: #fff;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.login-button {
+    width: 400px;
+    height: 45px;
+    padding: 20px;
+    background-color: #B6B5B5;
+    border: none;
+    border-radius: 20px;
+    color: #2B2C3E;
+    cursor: pointer;
+}
+
+.password-toggle-icon {
+    float: right;
+    margin-left: -30px;
+    margin-top: -25px;
+    position: relative;
+    cursor: pointer;
+    color: white;
+}
+
+.remember-me {
+    display: flex;
+    align-items: left;
+}
+
